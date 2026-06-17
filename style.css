@@ -1,0 +1,142 @@
+body{
+    background-color:white;
+
+}
+
+.Seleção{
+    text-align: center;
+    font-size: 50px;
+}
+
+.cbf{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60%;
+      background-color: green;
+   border: 10px solid white;
+   padding: 10px;
+   border-radius: 15px 15px 15px;
+
+    
+}
+
+.Neymar{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60%;
+      border: 10px solid blue;
+        padding: 10px;
+        border-radius: 15px 15px 15px;
+}
+
+.Jr{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+    hr{
+        border: none;
+    height: 2px;
+    background-color: green ;
+     margin: 3px auto;
+     padding: 3px 0; 
+     border-radius: 3px;
+    
+  
+    }
+
+    .AtacanteJr{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Santos{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Danilo{
+         display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60%;
+      border: 10px solid blue;
+        padding: 10px;
+        border-radius: 15px 15px 15px;
+    }
+
+    .Danilo2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    .MeioCampista{
+        text-align: center;
+        font-size: 25px;
+    }
+        
+.Botafogo{
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.Bremer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60%;
+    border: 10px solid blue;
+        padding: 10px;
+        border-radius: 15px 15px 15px;
+}
+
+.Gleison{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Defensor{
+    text-align: center;
+    font-size: 25px;
+}
+
+    .Juventus{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Alisson{
+         display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 60%;
+    border: 10px solid blue;
+        padding: 10px;
+        border-radius: 15px 15px 15px;
+    }
+
+    .Becker{
+        text-align: center;
+      font-size: 25px;
+    }
+
+    .Goleiro{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .Liverpool{
+        text-align: center;
+        font-size: 25px;
+    }
+

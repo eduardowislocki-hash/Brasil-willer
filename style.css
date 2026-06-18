@@ -140,3 +140,161 @@ body{
         font-size: 25px;
     }
 
+
+    .linha-do-tempo{
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    .ano-titulo{
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    .nossa-historia{
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .texto-introdução{
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    .tabela-responsiva {
+    width: 100%;
+    overflow-x: auto; /* Cria uma barra de rolagem horizontal apenas na tabela se o celular for muito pequeno */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave ao redor da tabela */
+}
+
+/* 2. Estrutura Base da Tabela */
+.tabela-jogos {
+    width: 100%;
+    border-collapse: collapse; /* Elimina os espaços duplos entre as bordas das células */
+    min-width: 600px; /* Garante que a tabela mantenha uma estrutura legível */
+    background-color: white;
+}
+
+/* 3. Cabeçalho da Tabela (Th) */
+.tabela-jogos th {
+    background-color: var(--azul-cbf); /* Fundo Azul Oficial */
+    color: white; /* Texto Branco para alto contraste */
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 16px;
+    text-align: center;
+}
+
+/* 4. Linhas e Células de Dados (Td) */
+.tabela-jogos td {
+    padding: 16px;
+    color: #444;
+    font-size: 0.95rem;
+    text-align: center;
+    border-bottom: 1px solid #eef2f5; /* Linha divisória sutil entre os jogos */
+    vertical-align: middle; /* Centraliza o conteúdo verticalmente */
+}
+
+/* 5. Efeito Zebra (Linhas intercaladas) para facilitar a leitura */
+.tabela-jogos tbody tr:nth-child(even) {
+    background-color: #f8fafc; /* Um cinza bem claro quase imperceptível */
+}
+
+/* 6. Efeito Hover: Destaca a linha onde o usuário passa o mouse */
+.tabela-jogos tbody tr:hover {
+    background-color: rgba(0, 168, 89, 0.05); /* Sombra sutil em tom verde da CBF */
+    transition: background-color 0.2s ease;
+}
+
+/* 7. Destaque para o Texto do Confronto */
+.confronto-texto {
+    font-weight: bold;
+    color: var(--azul-cbf);
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+}
+
+
+.form-apoio {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.grupo-campo label {
+    color: var(--azul-cbf);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.grupo-campo input,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.grupo-campo input:focus,
+.grupo-campo textarea:focus {
+    border-color: var(--verde-cbf);
+    box-shadow: 0 0 8px rgba(0, 168, 89, 0.15);
+}
+
+.btn-enviar {
+    background-color: var(--verde-cbf);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-enviar:hover {
+    background-color: #008a49;
+    transform: translateY(-1px);
+}
+
+/* ================= 9. RODAPÉ ================= */
+footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 4px solid var(--amarelo-cbf);
+    font-size: 0.85rem;
+}
+
+
+hr.linha-separadora {
+    border: none;
+    height: 4px;
+    background-color: var(--verde-cbf);
+    width: 80px;
+    margin: 0 auto 30px auto;
+    border-radius: 3px;
+}
+
